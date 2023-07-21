@@ -1,0 +1,20 @@
+.sobre {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 700px;
+  gap: 50px;
+  /* background-color: #D3D8DB; */
+  width: 100vw;
+}
+
+.foto-1-sobre {
+  align-self: center;
+}
+
+.texto-1-sobre {
+  width: 500px;
+  align-self: center;
+  text-align: justify;
+  color: rgb(24, 24, 63);
+}

@@ -1,0 +1,23 @@
+.nav-link {
+  color: #96C6F7;
+}
+
+.menu-principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 15vh;
+}
+
+.logo {
+  align-self: center;
+}
+
+.menu-opcoes {
+  align-self: center;
+}
+
+.grupo-menu {
+  width: 400px;
+  justify-content: space-between;
+}

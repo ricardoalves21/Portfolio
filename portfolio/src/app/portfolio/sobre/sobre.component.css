@@ -1,0 +1,22 @@
+.sobre {
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 100vw;
+height: 700px;
+gap: 50px;
+background-image: url(../../../assets/imagens/background-tech-2.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+}
+.foto-1-sobre {
+  align-self: flex-end;
+}
+.texto-1-sobre {
+  width: 500px;
+  align-self: center;
+  text-align: justify;
+  color: rgb(24, 24, 63);
+}
