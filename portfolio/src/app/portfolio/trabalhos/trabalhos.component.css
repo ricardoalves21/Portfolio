@@ -3,20 +3,31 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 5%;
+  width: auto;
+  height: 700px;
 }
-.traballhos {
-  display: flex;
-  flex-direction: row;
+.trabalhos {
+  display: grid;
+  grid-template-areas: "trabalho-filho trabalho-filho trabalho-filho";
+  gap: 20px;
   justify-content: center;
-  height: 90vh;
-  gap: 50px;
-  width: 100vw;
+  align-items: center;
+  height: 500px;
 }
 .trabalho-filho {
-  align-self: center;
+  max-width: 300px;
+  min-width: 250px;
+  height: auto;
 }
-.titulo-portfolio {
+.titulo-trabalhos {
+  height: 150px;
   text-align: center;
-  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8%;
+}
+.card {
+  justify-content: center;
+  align-items: center;
 }
