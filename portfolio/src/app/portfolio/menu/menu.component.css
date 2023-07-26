@@ -5,9 +5,9 @@
 .menu-principal {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 15vh;
-  width: 100%;
+  width: 100vw;
   border-bottom: 1px solid gray;
   position: fixed;
   top: 0;
@@ -24,6 +24,11 @@
 }
 
 .grupo-menu {
-  width: 400px;
+  width: 350px;
   justify-content: space-between;
+}
+.redes-sociais {
+  display: flex;
+  width: 70px;
+  justify-content: space-between;    
 }
