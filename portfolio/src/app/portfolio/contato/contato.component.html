@@ -1,0 +1,68 @@
+<form #formContato class="formulario-contato" id="bloco-contato">
+  <h4>Contato</h4>
+
+  <div class="borda-formulario">
+    <div class="form-group">
+      <label for="nome">Nome</label>
+      <input
+        type="text"
+        class="form-control"
+        id="nome"
+        name="nome"
+        aria-describedby="nome"
+        placeholder="Seu nome"
+        [(ngModel)]="contato.nome"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="telefone">Telefone</label>
+      <input
+        type="text"
+        class="form-control"
+        id="telefone"
+        name="telefone"
+        aria-describedby="telefone"
+        placeholder="Seu telefone"
+        [(ngModel)]="contato.telefone"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input
+        type="text"
+        class="form-control"
+        id="email"
+        name="email"
+        aria-describedby="email"
+        placeholder="Seu email"
+        [(ngModel)]="contato.email"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="empresa">Empresa</label>
+      <input
+        type="text"
+        class="form-control"
+        id="empresa"
+        name="empresa"
+        aria-describedby="empresa"
+        placeholder="Sua empresa"
+        [(ngModel)]="contato.empresa"
+      />
+    </div>
+    <button
+      style="background-color: #3976b4"
+      (click)="criarContato()"
+      class="btn btn-primary"
+      [disabled]="condicao()"
+    >
+      Enviar
+    </button>
+    <div *ngIf="exibirAlert" class="alert alert-success" role="alert">
+      Obrigado por seu contato!
+    </div>
+  </div>
+</form>
