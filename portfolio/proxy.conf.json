@@ -1,0 +1,8 @@
+{
+  "/api": {
+  "target": "https://tops-boundary-production.up.railway.app/",
+  "secure": false,
+  "logLevel": "info",
+  "changeOrigin": true
+  }
+}
