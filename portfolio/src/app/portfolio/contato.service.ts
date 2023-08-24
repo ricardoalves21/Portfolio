@@ -7,11 +7,13 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class ContatoService {
+
   constructor(private http: HttpClient) {}
-  private readonly API = 'api/contato';
+
+  private readonly API = '/api';
 
   criar(contato: Contato): Observable<Contato> {
-    return this.http.post<Contato>(this.API, contato);
+    return this.http.post<Contato>(this.API + '/contato/inserir', contato);
   }
 
 }
