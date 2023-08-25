@@ -10,7 +10,7 @@ export class ContatoService {
 
   constructor(private http: HttpClient) {}
 
-  private readonly API = '/api';
+  private readonly API = 'https://tops-boundary-production.up.railway.app/api';
 
   criar(contato: Contato): Observable<Contato> {
     return this.http.post<Contato>(this.API + '/contato/inserir', contato);
