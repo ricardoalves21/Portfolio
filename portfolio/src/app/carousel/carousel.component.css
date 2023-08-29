@@ -4,6 +4,6 @@
 .slide {
   border-bottom: 1px solid gray;
 }
-.texto-coursel-2 {
-  
+.carousel-item img {
+  filter: brightness(70%);
 }
