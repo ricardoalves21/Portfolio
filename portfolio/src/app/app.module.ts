@@ -12,6 +12,16 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { AncoraComponent } from './portfolio/ancora/ancora.component';
 import { NavbarComponent } from './portfolio/navbar/navbar.component';
+import { CommonModule } from '@angular/common';
+import { LottieModule } from 'ngx-lottie';
+import player from 'lottie-web';
+
+import { LottieCacheModule } from 'ngx-lottie';
+
+
+export function playerFactory() {
+  return player;
+}
 
 @NgModule({
   declarations: [
@@ -29,7 +39,9 @@ import { NavbarComponent } from './portfolio/navbar/navbar.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    CommonModule,
+    LottieModule.forRoot({ player: playerFactory }), LottieCacheModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent],
