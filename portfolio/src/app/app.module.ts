@@ -10,8 +10,8 @@ import { TrabalhosComponent } from './portfolio/trabalhos/trabalhos.component';
 import { ContatoComponent } from './portfolio/contato/contato.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
-import { CarouselModule } from './carousel/carousel.module';
 import { AncoraComponent } from './portfolio/ancora/ancora.component';
+import { NavbarComponent } from './portfolio/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -23,13 +23,13 @@ import { AncoraComponent } from './portfolio/ancora/ancora.component';
     TrabalhosComponent,
     ContatoComponent,
     AncoraComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule,
-    CarouselModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent],

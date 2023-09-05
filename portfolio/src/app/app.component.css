@@ -1,7 +1,17 @@
- body {
+* {
   margin: 0;
   padding: 0;
+}
+
+html, body {
+  height: 100%;
  }
- html {
+
+html {
   scroll-behavior: smooth;
 }
+
+/* main {
+  height: 100vh;
+  background-color: black;
+} */

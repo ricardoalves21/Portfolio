@@ -1,9 +1,0 @@
-#carouselExampleCaptions {
-  margin-top: 15vh;
-}
-.slide {
-  border-bottom: 1px solid gray;
-}
-.carousel-item img {
-  filter: brightness(70%);
-}

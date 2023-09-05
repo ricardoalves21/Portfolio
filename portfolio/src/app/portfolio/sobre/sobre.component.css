@@ -3,20 +3,35 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 width: auto;
-height: 700px;
 gap: 50px;
 background-image: url(../../../assets/imagens/background-tech-2.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
+background-attachment: fixed;
+padding: 3%;
 
 }
 .foto-1-sobre {
   align-self: flex-end;
+  width: 300px;
 }
 .texto-1-sobre {
   width: 500px;
   align-self: center;
   text-align: justify;
   color: rgb(24, 24, 63);
+}
+
+@media (max-width: 750px) {
+  .sobre {
+    width: auto;
+    padding-block: 20px;
+    padding-inline: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .foto-1-sobre {
+    display: none;
+  }
 }
