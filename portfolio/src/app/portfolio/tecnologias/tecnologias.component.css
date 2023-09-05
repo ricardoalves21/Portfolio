@@ -1,0 +1,165 @@
+.portfolio {
+    background-color: black;
+    padding-block: 10%;
+  }
+  
+.titulo-trabalhos {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+    color: rgb(180, 180, 180)!important;
+}
+
+.trabalhos {
+    display: grid;
+    grid-template-areas: "card card card card";
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartao {
+    width: 15vw;
+    height: 30vh;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+
+}
+
+.cartao img {
+    height: 100px;
+    width: auto;
+}
+
+.tech-spring {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: auto;
+}
+
+.tech-typescript {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: auto;
+}
+
+.tech-lottie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: auto;
+}
+
+.tech-bootstrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: auto;
+}
+
+.tech-html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: auto;
+}
+
+.tech-spring img {
+    height: 75px!important;
+    width: auto;
+}
+
+.tech-typescript img {
+    height: 75px!important;
+    width: auto;
+}
+
+.tech-lottie img {
+    height: 90px!important;
+    width: auto;
+}
+
+.tech-bootstrap img {
+    height: 75px!important;
+    width: auto;
+}
+
+.tech-html img {
+    height: 70px!important;
+    width: auto;
+}
+
+.card-descricoes {
+    width: 100%;
+}
+
+.icon-typescript {
+    height: auto;
+    width: 60px!important;
+}
+
+.card-title {
+    font-size: 10pt;
+}
+
+
+.card-descricoes h6 {
+    color: rgb(156, 156, 156)!important;
+    padding-block: 2%;
+}
+
+.card-text {
+    text-align: left;
+    width: 100%;
+    font-weight: 500;
+    color: #58abff;
+    font-size: 10pt;
+}
+
+ul li {
+    color: rgb(180, 180, 180)!important;
+    font-size: 10pt;
+}
+
+
+  
+  
+
+
+@media (max-width: 750px) {
+
+.trabalhos {
+    display: grid;
+    grid-template-areas: 
+    "trabalho-filho" 
+    "trabalho-filho" 
+    "trabalho-filho";
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-trabalhos {
+    padding-block: 40px;
+}
+
+.cartao {
+    width: 80vw!important;
+}
+
+}

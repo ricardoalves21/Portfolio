@@ -17,6 +17,7 @@ import { LottieModule } from 'ngx-lottie';
 import player from 'lottie-web';
 
 import { LottieCacheModule } from 'ngx-lottie';
+import { TecnologiasComponent } from './portfolio/tecnologias/tecnologias.component';
 
 
 export function playerFactory() {
@@ -34,6 +35,7 @@ export function playerFactory() {
     ContatoComponent,
     AncoraComponent,
     NavbarComponent,
+    TecnologiasComponent,
   ],
   imports: [
     BrowserModule,
