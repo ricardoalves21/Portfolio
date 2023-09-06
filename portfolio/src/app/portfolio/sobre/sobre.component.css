@@ -24,7 +24,7 @@ body {
 }
 
 .texto-1-sobre {
-  width: 470px;
+  width: 37vw;
   align-self: center;
   text-align: justify;
   color: rgb(24, 24, 63);
@@ -37,6 +37,9 @@ body {
     padding-inline: 40px;
     display: flex;
     justify-content: center;
+  }
+  .texto-1-sobre {
+    width: 85vw;
   }
   .foto-1-sobre {
     display: none;

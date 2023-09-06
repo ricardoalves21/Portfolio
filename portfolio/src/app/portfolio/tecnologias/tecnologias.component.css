@@ -1,6 +1,7 @@
 .portfolio {
-    background-color: black;
-    padding-block: 10%;
+    background-color: rgb(0, 0, 0);
+    padding-top: 7%;
+    padding-bottom: 7%;
   }
   
 .titulo-trabalhos {
@@ -30,12 +31,20 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 
 }
 
 .cartao img {
     height: 100px;
+    width: auto;
+}
+
+.tech-java {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 115px;
     width: auto;
 }
 
@@ -76,6 +85,11 @@
     justify-content: center;
     align-items: center;
     height: 100px;
+    width: auto;
+}
+
+.tech-java img {
+    height: 115px!important;
     width: auto;
 }
 
@@ -136,6 +150,27 @@ ul li {
     font-size: 10pt;
 }
 
+.link-projeto {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.git-portfolio {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3vh;
+    margin-left: 1vw;
+}
+
+.titulo-portfolio a {
+    color: rgb(161, 161, 161);
+    text-decoration: none;
+    cursor: pointer;
+}
 
   
   
@@ -155,11 +190,19 @@ ul li {
 }
 
 .titulo-trabalhos {
-    padding-block: 40px;
+    padding: 8%;
 }
 
 .cartao {
     width: 80vw!important;
+}
+
+.link-projeto {
+    padding-inline: 7%;
+}
+
+.git-portfolio {
+    margin-left: 2vw;
 }
 
 }

@@ -77,6 +77,37 @@ header {
     margin-right: 50px;
   }
 
+  .linkedin {
+    display: flex;
+  }
+
+  .linkedin p {
+    margin-left: 2vw;
+    color: #4DA1F4;
+  }
+
+  .github {
+    display: flex;
+  }
+
+  .github p {
+    margin-left: 2vw;
+    color: #4DA1F4;
+  }
+
+  .redes-sociais-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+    margin-right: 50px;
+    padding-left: 4vw;
+    line-height: 3rem;
+  }
+
+  .redes-sociais a {
+    padding-inline: 14px;
+  }
+
 .text-bg-dark {
     width: 60vw;
 }
