@@ -41,10 +41,23 @@
 .btn-primary {
   background-color: #3976b4;
   width: 100%;
+  border: none;
 }
 
 .btn-primary:hover {
-  background-color: #3b6188;
+  background-color: #379bff;
+}
+
+.btn-success {
+  background-color: #ffffff;
+  border: 1px solid rgb(179, 179, 179);
+  color: gray;
+  width: 100%;
+  margin-top: 1vh;
+}
+
+.btn-success:hover {
+  background-color: #d8d8d8;
 }
 
 .card-title {
@@ -66,6 +79,47 @@
 ul li {
   color: gray;
   font-size: 10pt;
+}
+
+.modal-title {
+  color: rgb(47, 47, 70);
+  padding-left: 4%;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 6%;
+  padding-block: 2%;
+}
+
+.linkProjetoModal {
+  padding: 0;
+  display: flex;
+}
+
+.git-portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1vh;
+}
+
+.git-portfolio a {
+  text-decoration: none;
+  color: rgb(61, 61, 61);
+  margin-left: 1vw;
+}
+
+.btn-light {
+  border: 1px solid rgb(194, 194, 194);
+}
+
+.modal-body {
+  padding-inline: 7%;
+  text-align: justify;
+  color: rgb(83, 83, 83);
 }
 
 

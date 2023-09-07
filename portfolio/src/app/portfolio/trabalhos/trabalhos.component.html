@@ -98,6 +98,7 @@
             <li>MYSQL</li>
           </ul>
           <a href="https://julianakorban.com.br/" target="_blank" class="btn btn-primary">Conhecer</a>
+          <button type="button" class="btn btn-success" (click)="openModalSite()">Detalhes do Projeto</button>
         </div>
       </div>
     </div>
@@ -131,6 +132,7 @@
             <li>MYSQL</li>
           </ul>
           <a href="https://tarefas.rical.dev.br/" target="_blank" class="btn btn-primary">Conhecer</a>
+          <button type="button" class="btn btn-success" (click)="openModalTarefas()">Detalhes do Projeto</button>
         </div>
       </div>
     </div>
@@ -164,6 +166,7 @@
             <li>MYSQL</li>
           </ul>
           <a href="https://clientes.rical.dev.br/" target="_blank" class="btn btn-primary">Conhecer</a>
+          <button type="button" class="btn btn-success" (click)="openModalClientes()">Detalhes do Projeto</button>
         </div>
       </div>
     </div>
@@ -185,6 +188,7 @@
             <li>Angular</li>
             <li>Typescript</li>
             <li>Bootstrap</li>
+            <li>Javascript</li>
           </ul>
           <p class="card-text">Back-end | API</p>
           <ul>
@@ -193,14 +197,215 @@
           </ul>
           <p class="card-text">Database</p>
           <ul>
-            <li>MYSQL</li>
+            <li></li>
           </ul>
           <a href="https://pagcalc.rical.dev.br/" target="_blank" class="btn btn-primary">Conhecer</a>
+          <button type="button" class="btn btn-success" (click)="openModalCalculadoras()">Detalhes do Projeto</button>
         </div>
       </div>
     </div>
 
-  </div>
-
+  </div>  
 
 </section>
+
+<div class="modal" tabindex="-1" id="modalTarefas">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Detalhes do Projeto</h5>
+        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+      </div>
+      <div class="modal-body">
+        <p>O projeto <span style="color: rgb(62, 62, 136);"> LISTA DE TAREFAS</span> foi feito pensando na necessidade das pessoas de controlarem suas tarefas 
+          a fim de monitorarem seu fluxo de trabalho e/ou gerais sua ou de sua equipe. Ao fazer isso, os líderes 
+          de equipes podem verificar facilmente se há algum gargalo no processo e tomar medidas necessárias. 
+          Isso minimiza o tempo de inatividade das pessoas, ajudando a melhorar o desempenho.<br/><br/>
+          Ao incluir uma nova tarefa o usuário poderá descrever com detalhes sobre sua DESCRIÇÃO, incluir o NOME do responsável
+          pela tarefa e a ETAPA que ela se encontra (a fazer, fazendo ou feito).<br/><br/>
+          No momento da inserção ou edição da tarefa, o usuário poderá ter uma prévia da visualização desta tarefa verificando
+          que para cada etapa há uma cor atribuída para o card da tarefa (vermelho para tarefas 'a fazer', azul para 'fazendo' e verde para
+          'feito'.
+        
+        </p>
+        
+      </div>
+
+      <div class="modal-footer"> 
+        
+        <div class="linkProjetoModal">
+
+          <div class="link-github">
+              <a href="https://github.com/ricardoalves21/Portfolio-Lista-Tarefas-Front/tree/main" target="_blank">
+                  <img
+                  src="../../../assets/imagens/github-2.png"
+                  width="35"
+                  alt="Icone Linkedin"
+                  />
+              </a>
+          </div>
+
+          <div class="git-portfolio">
+              <p class="titulo-portfolio"><a href="https://github.com/ricardoalves21/Portfolio-Lista-Tarefas-Front/tree/main" target="_blank">Projeto no Github</a></p>
+          </div>
+
+        </div>
+
+        <div class="btn-modal">        
+          <button type="button" class="btn btn-light" data-bs-dismiss="modal" (click)="closeModalTarefas()">Fechar</button>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal" tabindex="-1" id="modalClientes">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Detalhes do Projeto</h5>
+        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+      </div>
+      <div class="modal-body">
+        <p>O projeto <span style="color: rgb(62, 62, 136);"> CADASTRO DE CLIENTES</span> foi criado para demonstrar uma rotina muito comum no dia a dia das empresas que é o processo de cadastramento de clientes.
+          É possível incluir neste cadastro dados como: nome, email, telefone e endereço.<br/><br/>
+          O projeto foi construído seguindo as boas práticas de desenvolvimento com uma arquitetura MVC composta por uma API REST em Java e Spring.
+          Ao salvar o cadastro do cliente as informações são persistidas em um banco de dados MySQL hospedado no ambiente Railway.<br/><br/>
+          O fron-end do projeto foi construído em Angular (Typescript) seguindo as boas práticas de arquitetura de componentização, o que dá mais flexibilidade, desacoplamento, facilidade de manutanção 
+          e ampla possibilidade de evolução do projeto.<br/><br/>        
+        </p>
+        
+      </div>
+      
+      <div class="modal-footer"> 
+        
+        <div class="linkProjetoModal">
+
+          <div class="link-github">
+              <a href="https://github.com/ricardoalves21/Portfolio-Cadastro-Cliente-front" target="_blank">
+                  <img
+                  src="../../../assets/imagens/github-2.png"
+                  width="35"
+                  alt="Icone Linkedin"
+                  />
+              </a>
+          </div>
+
+          <div class="git-portfolio">
+              <p class="titulo-portfolio"><a href="https://github.com/ricardoalves21/Portfolio-Cadastro-Cliente-front" target="_blank">Projeto no Github</a></p>
+          </div>
+
+        </div>
+
+        <div class="btn-modal">        
+          <button type="button" class="btn btn-light" data-bs-dismiss="modal" (click)="closeModalTarefas()">Fechar</button>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal" tabindex="-1" id="modalCalculadoras">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Detalhes do Projeto</h5>
+        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+      </div>
+      <div class="modal-body">
+        <p>O projeto <span style="color: rgb(62, 62, 136);"> CALCULADORAS</span> foi criado para demonstrar as quatro operações básicas da matemática
+          dispostas em dois modelos de calculadoras com layouts diferentes cujas operações serão realizadas de duas maneiras:</p>
+          <ul>
+            <li>A primeira calculadora (básica) possui campos de input onde o usuário poderá digitar os números a serem considerados na operação matemática e posteriormente poderá 
+              clicar em qual operação deseja realizar.</li>
+            <li>A segunda calculadora (calculadora de mão) refere-se a uma calculadora tradicional, onde o usuário deverá clicar nos números a serem considerados no cálculo matemático e posteriormente
+              clicar em qual operação deseja fazer.
+            </li>
+          </ul>
+        <p>
+          A interface onde as duas calculadoras estão disponíveis para serem utilizadas foi construída em Angular. A primeira calculadora (básica) foi construída também em Angular e a 
+          segunda (calculadora de mão) foi construída com Javascript puro.       
+        </p>
+        
+      </div>
+      
+      <div class="modal-footer"> 
+        
+        <div class="linkProjetoModal">
+
+          <div class="link-github">
+              <a href="https://github.com/ricardoalves21/CalcPage" target="_blank">
+                  <img
+                  src="../../../assets/imagens/github-2.png"
+                  width="35"
+                  alt="Icone Linkedin"
+                  />
+              </a>
+          </div>
+
+          <div class="git-portfolio">
+              <p class="titulo-portfolio"><a href="https://github.com/ricardoalves21/CalcPage" target="_blank">Projeto no Github</a></p>
+          </div>
+
+        </div>
+
+        <div class="btn-modal">        
+          <button type="button" class="btn btn-light" data-bs-dismiss="modal" (click)="closeModalTarefas()">Fechar</button>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal" tabindex="-1" id="modalSite">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Detalhes do Projeto</h5>
+      </div>
+      <div class="modal-body">
+        <p>O projeto <span style="color: rgb(62, 62, 136);"> Juliana Korban</span> trata-se de um site institucional criado para a consultadora de imagem e estilo Juliana 
+          com o objetivo de apresentar ao mercado seus serviços.<br/><br/>
+          Para o desenvolvimento deste projeto eu fiz a criação da logomarca, bem como da paleta de cores e template.
+          O projeto foi construído a partir de um mapeamento dos os serviços oferecidos pela consultora, além do seu posicionamento de mercado e da percepção de valor dos clientes.<br/><br/>
+          Com isso foi possível desenvolver um site que apresentasse exatamente a imagem que a consultora desejava levar ao seu público.
+          As cores, ícones, imagens e animações foram pensados um a um, a fim de que transmitissem harmonia e valor condizentes com a proposta da consultoria.
+        </p>
+        
+      </div>
+      
+      <div class="modal-footer"> 
+        
+        <div class="linkProjetoModal">
+
+          <div class="link-github">
+              <a href="https://github.com/ricardoalves21/CalcPage" target="_blank">
+                  <img
+                  src="../../../assets/imagens/github-2.png"
+                  width="35"
+                  alt="Icone Linkedin"
+                  />
+              </a>
+          </div>
+
+          <div class="git-portfolio">
+              <p class="titulo-portfolio"><a href="https://github.com/ricardoalves21/CalcPage" target="_blank">Projeto no Github</a></p>
+          </div>
+
+        </div>
+
+        <div class="btn-modal">        
+          <button type="button" class="btn btn-light" data-bs-dismiss="modal" (click)="closeModalTarefas()">Fechar</button>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
