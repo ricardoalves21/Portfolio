@@ -102,6 +102,15 @@ header {
     color: #4DA1F4;
   }
 
+  .whatsapp {
+    display: flex;
+  }
+
+  .whatsapp p {
+    margin-left: 2vw;
+    color: #4DA1F4;
+  }
+
   .redes-sociais-mobile {
     display: flex;
     flex-direction: column;

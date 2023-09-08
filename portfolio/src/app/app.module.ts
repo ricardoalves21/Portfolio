@@ -16,6 +16,7 @@ import player from 'lottie-web';
 
 import { LottieCacheModule } from 'ngx-lottie';
 import { TecnologiasComponent } from './portfolio/tecnologias/tecnologias.component';
+import { WhatsappComponent } from './portfolio/whatsapp/whatsapp.component';
 
 
 export function playerFactory() {
@@ -32,6 +33,7 @@ export function playerFactory() {
     AncoraComponent,
     NavbarComponent,
     TecnologiasComponent,
+    WhatsappComponent,
   ],
   imports: [
     BrowserModule,
