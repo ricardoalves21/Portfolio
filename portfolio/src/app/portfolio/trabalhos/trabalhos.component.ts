@@ -13,12 +13,16 @@ export class TrabalhosComponent implements OnInit {
   formModalClientes: any;
   formModalCalculadoras: any;
   formModalSite: any;
+  formModalEcom1: any;
+  formModalEcom2: any;
 
   ngOnInit(): void {
     this.formModalTarefas = new window.bootstrap.Modal(document.getElementById("modalTarefas"));
     this.formModalClientes = new window.bootstrap.Modal(document.getElementById("modalClientes"));
     this.formModalCalculadoras = new window.bootstrap.Modal(document.getElementById("modalCalculadoras"));
     this.formModalSite = new window.bootstrap.Modal(document.getElementById("modalSite"));
+    this.formModalEcom1 = new window.bootstrap.Modal(document.getElementById("modalEcom1"));
+    this.formModalEcom2 = new window.bootstrap.Modal(document.getElementById("modalEcom2"));
   }
 
   openModalTarefas() {
@@ -37,6 +41,14 @@ export class TrabalhosComponent implements OnInit {
     this.formModalSite.show();
   }
 
+  openModalEcom1() {
+    this.formModalEcom1.show();
+  }
+
+  openModalEcom2() {
+    this.formModalEcom2.show();
+  }
+
   closeModalTarefas() {
     this.formModalTarefas.hide();
   }  
@@ -51,6 +63,14 @@ export class TrabalhosComponent implements OnInit {
 
   closeModalSite() {
     this.formModalSite.hide();
+  } 
+
+  closeModalEcom1() {
+    this.formModalEcom1.hide();
+  } 
+
+  closeModalEcom2() {
+    this.formModalEcom2.hide();
   } 
 
 }
