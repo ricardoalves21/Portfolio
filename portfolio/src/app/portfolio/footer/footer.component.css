@@ -53,6 +53,7 @@
   justify-content: center;
   align-items: flex-start;
   line-height: 1em;
+  padding-top: 2vh;
 }
 .link-redes-sociais {
   text-decoration: none;
@@ -103,10 +104,9 @@
   }
 
   .texto-rodape {
-    line-height: 1.4rem;
+    height: auto;
     margin: 0;
     padding: 0;
-    padding-top: 1vh;
   }
 
   .texto-footer-1 {
@@ -118,7 +118,6 @@
     border: none;
     height: auto;
     padding: 0;
-    margin-top: -2vh;
   }
 
 }
